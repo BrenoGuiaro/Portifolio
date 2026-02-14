@@ -1,0 +1,66 @@
+* {
+    background-color: #0A0A0A;
+}
+
+/* CSS DE HEADER E FILHOS*/
+header {
+    border-bottom: 2px solid rgba(255, 255, 255, 10%);
+    width: 100vw;
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.boxIcon {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxTopics {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.organization {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+    color: rgba(255, 255, 255, 70%);
+}
+h4 {
+    cursor: pointer;
+}
+h4:hover{
+    color:#6bd3ed;
+    scale: calc(1.1);
+}
+
+
+.boxContact {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnC{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    width: 10vw;
+    height: 7vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btnC:hover{
+    background-color:#6bd3ed;
+    color: white;
+}
