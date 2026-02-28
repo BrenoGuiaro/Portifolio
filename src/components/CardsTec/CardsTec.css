@@ -1,0 +1,27 @@
+.card {
+    background-color: rgba(255, 255, 255, 5%);
+    width: 15vw;
+    height: 9vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 8%);
+    
+}
+
+#icon {
+    background-color: rgba(255, 255, 255, 0%);
+    margin-right: 1vw;
+    color: rgba(255,255,255,50%);
+}
+
+.card:hover #icon{
+    color: #6366f1;
+}

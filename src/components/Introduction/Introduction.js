@@ -12,7 +12,7 @@ export const Introduction = () => {
         <h1 style={{ color: 'white' }}>Olá, eu sou</h1>
       </div>
       <div className='boxName'>
-        <h1 style={{ color: '#6bd3ed' }}>Breno Guiaro</h1>
+        <h1 style={{ color: '#6366f1', fontWeight:700, fontStyle:'normal' }}>Breno Guiaro</h1>
         <div className='boxBio'>
           <p>Desenvolvedor de Sites e Sistemas Web
             Crio sites modernos, rápidos e fáceis de usar. Tenho experiência na construção de interfaces visuais e
