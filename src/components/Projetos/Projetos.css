@@ -1,0 +1,17 @@
+.boxProjetos {
+    width: 85%;
+    margin-left: 9vw;
+}
+.boxSubTitle {
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+#allProjects {
+    color: rgba(255, 255, 255, 15%)
+}
+#allProjects:hover{
+   color: rgba(255, 255, 255, 30%)
+}

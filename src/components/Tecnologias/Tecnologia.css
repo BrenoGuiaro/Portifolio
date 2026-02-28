@@ -2,11 +2,12 @@
     margin-top: 5vw;
     margin-left: 9vw;
     width: 85%;
-    margin-bottom: 5vh;
+    margin-bottom: 20vh;
 }
 
 .boxCards {
     margin-top: 5vh;
+    margin-bottom: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
