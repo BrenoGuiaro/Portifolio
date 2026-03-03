@@ -2,11 +2,13 @@ import './CardsProj.css'
 import { LuExternalLink as IconRoute } from "react-icons/lu";
 import { FiGithub as GitHub } from "react-icons/fi";
 import { Link } from 'react-router-dom';
-import Projects from './Projects.json'
+import Projects from './Projects.json';
+import { IoMdLaptop as Desktop } from "react-icons/io";
+import { FaMobileAlt as Mobile } from "react-icons/fa";
 
 export const CardsProj = () => {
     return (
-        <div style={{display:'flex',alignItems:'center',justifyContent:'center', flexDirection:'column', gap:'25px'}}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '25px' }}>
             {Projects.map((projeto) => (
                 <div className='boxCard'>
                     <div className='textTec'>
@@ -36,7 +38,19 @@ export const CardsProj = () => {
                     </div>
 
                     <div className='boxImage'>
-                        <img src={projeto.image} alt='Capa projeto' id='image'/>
+                        <img src={projeto.image} alt='Capa projeto' id='image' />
+                    </div>
+
+                    <div className='compatibility'>
+                        {projeto.platform.map(item => (
+                            <div className='platform'>
+                                {item.name === 'Desktop' ?
+                                 <Desktop color='white' size={20} />
+                                  : 
+                                  <Mobile color='white' size={17}/>}
+                                <p className='text'>{item.name}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
 
