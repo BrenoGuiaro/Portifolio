@@ -8,10 +8,12 @@ import { Projetos } from '../../components/Projetos/Projetos'
 export const Home = () => {
   return (
     <>
-      <HeaderP />
-      <Introduction />
-      <Tecnologia/>
-      <Projetos/>
+      <div className='back'>
+        <HeaderP />
+        <Introduction />
+        <Tecnologia />
+        <Projetos />
+      </div>
     </>
   )
 }

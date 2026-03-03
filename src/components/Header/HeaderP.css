@@ -1,12 +1,11 @@
-* {
-    background-color: #0A0A0A;
-}
 
 /* CSS DE HEADER E FILHOS*/
 header {
-    border-bottom: 2px solid rgba(255, 255, 255, 10%);
+    position: fixed;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
     width: 100%;
     height: 14vh;
+    background-color: #0A0A0A;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,4 +62,9 @@ h4:hover{
 #btnC:hover{
     background-color:#6366f1;
     color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
 }

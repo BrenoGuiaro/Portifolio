@@ -1,0 +1,54 @@
+[
+    {
+        "id":1,
+        "title":"Jogo Titanic",
+        "tecs":{
+            "tec1":"HTML",
+            "tec2":"CSS",
+            "tec3":"JavaScript"
+        },
+        "description":"Projeto desenvolvido totalmente com tecnologiProjeto desenvolvido totalmente com tecnologi",
+        "deploy":"https://jogotitanic.netlify.app/",
+        "codigo":"https://github.com/BrenoGuiaro/jogoTitanic",
+        "image":"/imgs/imgProjects/imgTitan.jpg"
+    },
+    {
+        "id":2,
+        "title":"Guiaro Movies",
+        "tecs":{
+            "tec1":"ReactJS",
+            "tec2":"API Rest",
+            "tec3":"JavaScript"
+        },
+        "description":"Projeto simples em ReactJS que consome uma API externa para listar títulos e exibir detalhes dos filmes em uma interface fixa.",
+        "deploy":"https://guiarosmovies.netlify.app/",
+        "codigo":"https://github.com/BrenoGuiaro/GuiaroMovies",
+        "image":"/imgs/imgProjects/imgMovies.png"
+    },
+    {
+        "id":3,
+        "title":"Loja da bike",
+        "tecs":{
+            "tec1":"Flask",
+            "tec2":"Python",
+            "tec3":"Jinja2"
+        },
+        "description":"Projeto desenvolvido totalmente com tecnologiProjeto desenvolvido totalmente com tecnologi",
+        "deploy":"https://lojabike.onrender.com/",
+        "codigo":"https://github.com/BrenoGuiaro/loja_da_bike_flask",
+        "image":"/imgs/imgProjects/imgLojaBike.png"
+    },
+    {
+        "id":4,
+        "title":"E-commerce (Lufigu)",
+        "tecs":{
+            "tec1":"ReactJS",
+            "tec2":"Node.js",
+            "tec3":"API Mercado Pago"
+        },
+        "description":"Projeto desenvolvido totalmente com tecnologiProjeto desenvolvido totalmente com tecnologi",
+        "deploy":"https://lufigu.vercel.app/",
+        "codigo":"https://github.com/BrenoGuiaro/Lufigu",
+        "image":"/imgs/imgProjects/imgLufigu.png"
+    }
+]

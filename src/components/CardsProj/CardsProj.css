@@ -1,7 +1,6 @@
 .boxCard {
-
+    width:75%;
     height: 30vh;
-    margin-bottom: 10vh;
     border-radius: 5px;
     padding: 10px;
     padding-left: 10vh;
@@ -9,20 +8,21 @@
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: 25% 25% 30% 20%;
-    background: rgba(255, 255, 255, 40%);
+    background: rgba(255, 255, 255, 0.05);
 }
-
+.boxCard:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
 .textTec {
     grid-column: 1;
     grid-row: 1;
-    width: 40%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
    
     
 }
-
 .title {
     grid-column: 1;
     grid-row: 2;
@@ -30,16 +30,14 @@
     align-items: center;
     justify-content: flex-start;
 }
-
 .description {
     grid-column: 1;
     grid-row: 3;
-    width: 85%;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
-
 .routes {
     grid-column: 1;
     grid-row: 4;
@@ -49,18 +47,36 @@
     justify-content: space-between;
     text-decoration: dashed;
 }
-
 .route {
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     color: white;
+}
+.route-hover{
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+.route-hover:hover{
+     color:#6366f1;
 }
 
-.route:hover {
-
-    color: #6366f1
+.boxImage{
+    grid-column: 2;
+    grid-row: 1/5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image{
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
 }

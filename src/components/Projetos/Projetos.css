@@ -15,3 +15,6 @@
 #allProjects:hover{
    color: rgba(255, 255, 255, 30%)
 }
+#projetos {
+  scroll-margin-top: 20vh; 
+}

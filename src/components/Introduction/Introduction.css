@@ -7,7 +7,7 @@ h1{
     justify-content: center;
     flex-direction: column;
     margin-left: 10vw;
-    margin-top: 10vh;
+    padding-top: 25vh;
     width: 85%;
 
 }

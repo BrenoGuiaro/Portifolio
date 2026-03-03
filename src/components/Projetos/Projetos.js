@@ -4,7 +4,7 @@ import { CardsProj } from '../CardsProj/CardsProj'
 
 export const Projetos = () => {
   return (
-    <div className='boxProjetos'>
+    <div className='boxProjetos' id="projetos">
         <h3 style={{color: '#6366f1', fontWeight: 600 , fontSize:'17px'}}>Trabalhos em destaque</h3>
         <div className='boxSubTitle'>
             <h2 style={{color:'white', fontSize:'35px'}}>Projetos</h2>
