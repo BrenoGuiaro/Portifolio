@@ -1,10 +1,11 @@
 import React from 'react'
 import './HeaderP.css'
 import icon from '../../images/logoP.png'
+import { Link } from 'react-router-dom'
 
 export const HeaderP = () => {
   return (
-    <header> 
+    <header>
       <div className='boxIcon'>
         <img src={icon} alt='icon' width={70} height={70} />
       </div>
@@ -17,7 +18,9 @@ export const HeaderP = () => {
         </div>
       </div>
       <div className='boxContact'>
-        <input type='submit' value='Contrate-me' id='btnC'/>
+        <Link id='btnC' to={'mailto:brenoft14@gmail.com'}>
+          <p>Contrate-me</p>
+        </Link>
       </div>
     </header>
   )
