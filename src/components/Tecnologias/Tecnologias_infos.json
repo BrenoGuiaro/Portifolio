@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "name":"ReactJS"
+    },
+    {
+        "id":2,
+        "name":"React Native"
+    },
+    {
+        "id":3,
+        "name":"Git"
+    },
+    {
+        "id":4,
+        "name":"SQL Server"
+    },
+    {
+        "id":5,
+        "name":"MongoDB"
+    },
+    {
+        "id":6,
+        "name":"Flask"
+    }
+
+]

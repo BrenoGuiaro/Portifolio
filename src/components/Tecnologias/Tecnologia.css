@@ -4,7 +4,6 @@
     width: 85%;
     margin-bottom: 20vh;
 }
-
 .boxCards {
     margin-top: 5vh;
     margin-bottom: 10vh;
@@ -17,18 +16,73 @@
     padding-bottom: 1vh;
 
 }
-
 .boxCards::-webkit-scrollbar {
     height: 8px;
 
 }
-
 .boxCards::-webkit-scrollbar-track {
     background-color: rgba(255, 255, 255, 15%);
     border-radius: 8px;
 }
-
 .boxCards::-webkit-scrollbar-thumb {
     background-color: #6366f1;
     border-radius: 8px;
+}
+#topic {
+    color: #6366f1;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/*CSS CARD*/
+.card {
+    background-color: rgba(255, 255, 255, 5%);
+    width: 140px;
+    min-width: 140px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.card:hover {
+    background-color: rgba(255, 255, 255, 8%);
+
+}
+#icon {
+    background-color: rgba(255, 255, 255, 0%);
+    margin-right: 1vw;
+    color: rgba(255, 255, 255, 50%);
+}
+.card:hover #icon {
+    color: #6366f1;
+}
+
+@media (max-width:768px) {
+    .boxTecnologia {
+        width: 90%;
+        margin-left: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom:  5vh;
+    }
+    .boxCards {
+        width: 90%;
+        margin-bottom: 4vh;
+        flex-direction: column;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: auto;
+        gap: 10px;
+    }
+    #topic {
+        text-align: center
+    }
+    
 }

@@ -1,4 +1,3 @@
-
 /* CSS DE HEADER E FILHOS*/
 header {
     position: fixed;
@@ -9,7 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    z-index: 1;
 }
 
 .boxIcon {
@@ -27,6 +26,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .organization {
     display: flex;
     justify-content: space-around;
@@ -34,14 +34,15 @@ header {
     width: 65%;
     color: rgba(255, 255, 255, 70%);
 }
+
 h4 {
     cursor: pointer;
 }
-h4:hover{
-    color:#6366f1;
+
+h4:hover {
+    color: #6366f1;
     scale: calc(1.1);
 }
-
 
 .boxContact {
     width: 25%;
@@ -50,7 +51,8 @@ h4:hover{
     justify-content: center;
     align-items: center;
 }
-#btnC{
+
+#btnC {
     background-color: white;
     border: none;
     border-radius: 12px;
@@ -59,12 +61,36 @@ h4:hover{
     font-weight: bold;
     cursor: pointer;
 }
-#btnC:hover{
-    background-color:#6366f1;
+
+#btnC:hover {
+    background-color: #6366f1;
     color: white;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width:768px) {
+    header {
+        height: auto;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    .boxIcon {
+        width: 50%;
+        justify-content: flex-start;
+    }
+    .boxTopics {
+        display: none;
+    }
+    .boxContact {
+        width: 50%;
+        height: 100%;
+    }
+    #btnC {
+        width: 60%;
+        height: 6vh;
+    }
 }
