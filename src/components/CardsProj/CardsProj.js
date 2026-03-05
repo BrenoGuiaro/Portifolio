@@ -11,6 +11,7 @@ export const CardsProj = () => {
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '25px' }}>
             {Projects.map((projeto) => (
                 <div className='boxCard'>
+
                     <div className='textTec'>
                         <h5 style={{ color: '#6366f1', fontWeight: 600, fontSize: '15px' }}>{projeto.tecs.tec1}</h5>
                         <h5 style={{ color: '#6366f1', fontWeight: 600, fontSize: '15px' }}>{projeto.tecs.tec2}</h5>
@@ -45,13 +46,14 @@ export const CardsProj = () => {
                         {projeto.platform.map(item => (
                             <div className='platform'>
                                 {item.name === 'Desktop' ?
-                                 <Desktop color='white' size={20} />
-                                  : 
-                                  <Mobile color='white' size={17}/>}
+                                    <Desktop color='white' size={20} />
+                                    :
+                                    <Mobile color='white' size={17} />}
                                 <p className='text'>{item.name}</p>
                             </div>
                         ))}
                     </div>
+
                 </div>
 
             ))

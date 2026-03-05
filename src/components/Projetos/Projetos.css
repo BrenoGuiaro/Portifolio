@@ -9,12 +9,36 @@
     justify-content: space-between;
     margin-top: 3vh;
 }
+#titleProj {
+ color: white;
+ font-size: 35px;
+}
+.boxTit {
+    text-align: center;
+}
 #allProjects {
     color: rgba(255, 255, 255, 15%)
 }
-#allProjects:hover{
-   color: rgba(255, 255, 255, 30%)
+#allProjects:hover {
+    color: rgba(255, 255, 255, 30%)
 }
 #projetos {
-  scroll-margin-top: 20vh; 
+    scroll-margin-top: 20vh;
+}
+
+@media(max-width:768px) {
+    .boxProjetos {
+        width: 90%;
+        margin-left: 5vw;
+    }
+    #titleProj {
+        font-size: 30px;
+    }
+    .boxSubTitle{
+        flex-direction: column;
+    }
+    #allProjects{
+        margin-top: 2vh;
+    }
+
 }
