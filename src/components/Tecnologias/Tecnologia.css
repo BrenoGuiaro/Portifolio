@@ -1,7 +1,6 @@
 .boxTecnologia {
     margin-top: 5vw;
-    margin-left: 9vw;
-    width: 85%;
+    width: 100%;
     margin-bottom: 20vh;
 }
 .boxCards {
@@ -11,9 +10,11 @@
     justify-content: space-around;
     align-items: center;
     max-width: 100%;
+    gap: 10px;
     overflow-x: auto;
     cursor: pointer;
     padding-bottom: 1vh;
+    padding-left: 7vw;
 
 }
 .boxCards::-webkit-scrollbar {

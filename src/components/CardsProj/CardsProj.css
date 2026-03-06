@@ -1,6 +1,6 @@
 .boxCard {
     position: relative;
-    width: 75%;
+    width: 70%;
     height: 30vh;
     border-radius: 5px;
     padding: 10px;
@@ -11,9 +11,24 @@
     grid-template-rows: 25% 25% 30% 20%;
     background: rgba(255, 255, 255, 0.05);
 }
+
+.divTotal {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.boxLimit {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    gap: 25px;
+}
+
 .boxCard:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
+
 .textTec {
     grid-column: 1;
     grid-row: 1;
@@ -22,6 +37,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .title {
     grid-column: 1;
     grid-row: 2;
@@ -29,6 +45,7 @@
     align-items: center;
     justify-content: flex-start;
 }
+
 .description {
     grid-column: 1;
     grid-row: 3;
@@ -37,6 +54,7 @@
     align-items: center;
     justify-content: flex-start;
 }
+
 .routes {
     grid-column: 1;
     grid-row: 4;
@@ -46,6 +64,7 @@
     justify-content: space-between;
     text-decoration: dashed;
 }
+
 .route {
     width: 50%;
     height: 100%;
@@ -54,6 +73,7 @@
     justify-content: flex-start;
     color: white;
 }
+
 .route-hover {
     cursor: pointer;
     display: flex;
@@ -61,9 +81,11 @@
     color: white;
     text-decoration: none;
 }
+
 .route-hover:hover {
     color: #6366f1;
 }
+
 .boxImage {
     grid-column: 2;
     grid-row: 1/5;
@@ -73,11 +95,13 @@
     align-items: center;
     justify-content: center;
 }
+
 #image {
     width: 80%;
     height: 80%;
     border-radius: 8px;
 }
+
 .compatibility {
     position: absolute;
     top: -10px;
@@ -87,11 +111,12 @@
     width: auto;
     height: auto;
 }
-.platform{
+
+.platform {
     border: 1px solid blue;
     width: auto;
     height: 2vh;
-    background-color: rgba(99, 102, 241,0.5);
+    background-color: rgba(99, 102, 241, 0.5);
     border: 2px solid #6366f1;
     border-radius: 5px;
     padding: 5px;
@@ -100,57 +125,65 @@
     justify-content: center;
     align-items: center;
 }
-.text{
+
+.text {
     font-weight: 500;
     color: white;
 }
-.boxColumn{
+
+.boxColumn {
     display: none;
 }
 
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-    .boxCard{
+    .boxCard {
         display: flex;
         height: 45vh;
         flex-direction: column;
         width: 90%;
         padding: 0;
     }
-    .textTec{
+
+    .textTec {
         width: 90%;
         height: 10%;
         padding-left: 4vw;
         padding-top: 2vh;
     }
-    .title{
+
+    .title {
         height: 15%;
         justify-content: center;
     }
-    .description{
+
+    .description {
         width: 95%;
         padding-top: 5px;
         height: 35%;
         text-align: center;
         padding-left: 7px;
     }
-    .routes{
+
+    .routes {
         width: 100%;
-        height:5%;
+        height: 5%;
         justify-content: center;
         padding-top: 1vh;
         padding-bottom: 1vh;
     }
-    .route{
+
+    .route {
         justify-content: center;
     }
-    .boxImage{
+
+    .boxImage {
         height: 35%;
         margin-bottom: 1vh;
     }
-    #image{
+
+    #image {
         height: 90%;
     }
 }
-

@@ -6,13 +6,23 @@ h1 {
 .boxIntroduction {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin-left: 10vw;
     padding-top: 25vh;
-    width: 85%;
-
+    width: 100%;
 }
 
+/*Esse "boxCenter2" é utilizado em mais componentes fora dessa pasta do Introduction*/
+
+.boxCenter2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+/*////////////////////////////////////////////*/
 .boxLinks {
     display: flex;
     justify-content: space-around;
@@ -55,26 +65,31 @@ h1 {
         margin-left: 5vw;
         align-items: center;
     }
-    h1{
+
+    h1 {
         font-size: 50px;
     }
-    .boxHello{
+
+    .boxHello {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    .boxBio{
-       
+
+    .boxBio {
+
         width: 90%;
     }
-    .boxLinks{
-     
+
+    .boxLinks {
+
         width: 90%;
         margin-top: 4vh;
         margin-bottom: 4vh;
     }
-    .boxBtn{
+
+    .boxBtn {
         width: 100%;
         padding: 5px;
         height: 90%;

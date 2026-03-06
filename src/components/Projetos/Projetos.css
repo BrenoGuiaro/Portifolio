@@ -1,20 +1,25 @@
 .boxProjetos {
-    width: 85%;
-    margin-left: 9vw;
+    width: 100%;
+}
+.boxCenter3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 10vw;
 }
 .boxSubTitle {
+    width: 85%;
     margin-bottom: 5vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 3vh;
+    padding-left: 3vw;
 }
 #titleProj {
- color: white;
- font-size: 35px;
-}
-.boxTit {
-    text-align: center;
+    color: white;
+    font-size: 35px;
 }
 #allProjects {
     color: rgba(255, 255, 255, 15%)
@@ -31,13 +36,16 @@
         width: 90%;
         margin-left: 5vw;
     }
+    .boxTit {
+        text-align: center;
+    }
     #titleProj {
         font-size: 30px;
     }
-    .boxSubTitle{
+    .boxSubTitle {
         flex-direction: column;
     }
-    #allProjects{
+    #allProjects {
         margin-top: 2vh;
     }
 

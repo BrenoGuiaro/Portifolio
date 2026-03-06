@@ -4,6 +4,7 @@ import { HeaderP } from '../../components/Header/HeaderP'
 import { Introduction } from '../../components/Introduction/Introduction'
 import { Tecnologia } from '../../components/Tecnologias/Tecnologia'
 import { Projetos } from '../../components/Projetos/Projetos'
+import { Information } from '../../components/Information/Information'
 
 export const Home = () => {
   return (
@@ -13,6 +14,7 @@ export const Home = () => {
         <Introduction />
         <Tecnologia />
         <Projetos />
+        <Information/>
       </div>
     </>
   )
