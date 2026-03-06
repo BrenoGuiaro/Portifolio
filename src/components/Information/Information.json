@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "title":"Técnico em Desenvolvimento de Sistemas - (Integrado ao Ensino Médio)",
+        "instituição":"SENAI",
+        "ano":"2023 - 2024"
+    },
+    {
+        "id":2,
+        "title":"Curso FullStack MEARN",
+        "instituição":"Estudos Independentes & Mentoria",
+        "ano":"2023 - 2024"
+    },
+    {
+        "id":3,
+        "title":"Automação com N8N",
+        "instituição":"Santander",
+        "ano":"2025 - 2026"
+    }
+
+        
+]
