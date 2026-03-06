@@ -36,6 +36,12 @@
         width: 90%;
         margin-left: 5vw;
     }
+    .boxCenter3{
+        padding-left: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
     .boxTit {
         text-align: center;
     }

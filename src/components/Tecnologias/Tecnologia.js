@@ -5,7 +5,7 @@ import Infos_Tec from './Tecnologias_infos.json'
 export const Tecnologia = () => {
   return (
     <div className='boxTecnologia'>
-      <div className="boxCenter2">
+      <div className="boxCenterTec">
         <h3 id='topic'>Tecnologias que utilizo</h3>
 
         <div className='boxCards'>
