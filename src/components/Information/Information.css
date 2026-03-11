@@ -1,63 +1,63 @@
 .boxInformation {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    padding-right: 0;
-    padding-left: 0;
-    margin-top: 10vh;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 10vh;
 }
 
 .boxCenter {
-    width: 90%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
 }
 
 .boxSobre {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .content {
-    height: auto;
-    width: 80%;
-    padding-top: 2vh;
+  height: auto;
+  width: 80%;
+  padding-top: 2vh;
 }
 
 .boxAcad {
-    width: 50%;
-    height: 100%;
-    
+  width: 50%;
+  height: auto;
+
 }
 
 .boxEns {
-    width: 90%;
-    position: relative;
-    padding-bottom: 30px;
-   padding-left: 20px;
-    border-left: 2px solid #334155;
-    max-height: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  width: 90%;
+  position: relative;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  border-left: 2px solid #334155;
+  max-height: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .boxEns::before {
   content: "";
   position: absolute;
-  left: -6px; 
+  left: -6px;
   top: 0;
   width: 10px;
   height: 10px;
-  background-color: #6366f1; 
+  background-color: #6366f1;
   border-radius: 50%;
 
 }
@@ -78,4 +78,53 @@ boxEns:last-child {
   color: #94a3b8;
   margin-top: 5px;
   font-size: 14px;
+}
+
+
+@media (max-width:768px) {
+  .boxInformation {
+
+    width: 100%;
+  }
+
+  .boxCenter {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .boxSobre {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+      margin-left: 5vw;
+  }
+
+  .boxAcad {
+    margin-top: 5vh;
+    width: 100%;
+    gap: 10px;
+    margin-left: 5vw;
+  }
+
+  .boxEns {
+    width: 100%;
+    padding-bottom: 45px;
+
+  }
+
+  .titleEns {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+
+  .subtitleEns {
+    color: #94a3b8;
+    margin-top: 5px;
+    font-size: 14px;
+
+  }
 }

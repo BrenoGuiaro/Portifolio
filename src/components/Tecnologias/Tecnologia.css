@@ -1,11 +1,12 @@
 .boxTecnologia {
     margin-top: 5vw;
     width: 100%;
-    margin-bottom: 20vh;
+    margin-bottom: 5vh;
 }
+
 .boxCards {
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,10 +14,10 @@
     gap: 10px;
     overflow-x: auto;
     cursor: pointer;
-    padding-bottom: 1vh;
     padding-left: 7vw;
 
 }
+
 .boxCenterTec {
     display: flex;
     align-items: flex-start;
@@ -24,18 +25,22 @@
     flex-direction: column;
     padding-left: 10vw;
 }
+
 .boxCards::-webkit-scrollbar {
     height: 8px;
 
 }
+
 .boxCards::-webkit-scrollbar-track {
     background-color: rgba(255, 255, 255, 15%);
     border-radius: 8px;
 }
+
 .boxCards::-webkit-scrollbar-thumb {
     background-color: #6366f1;
     border-radius: 8px;
 }
+
 #topic {
     color: #6366f1;
     font-weight: 600;
@@ -56,15 +61,18 @@
     font-weight: 500;
     font-size: 15px;
 }
+
 .card:hover {
     background-color: rgba(255, 255, 255, 8%);
 
 }
+
 #icon {
     background-color: rgba(255, 255, 255, 0%);
     margin-right: 1vw;
     color: rgba(255, 255, 255, 50%);
 }
+
 .card:hover #icon {
     color: #6366f1;
 }
@@ -76,25 +84,28 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-bottom:  5vh;
+        margin-bottom: 5vh;
     }
+
     .boxCards {
         width: 100%;
         margin-bottom: 4vh;
         display: grid;
-        grid-template-columns: repeat(2,50%);
+        grid-template-columns: repeat(2, 50%);
         grid-template-rows: auto;
         gap: 10px;
         overflow-y: auto;
         overflow-x: hidden;
-        
+
     }
-    .boxCenterTec{
+
+    .boxCenterTec {
         align-items: center;
         padding-left: 0;
     }
+
     #topic {
         text-align: center
     }
-    
+
 }

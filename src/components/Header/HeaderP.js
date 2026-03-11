@@ -13,8 +13,7 @@ export const HeaderP = () => {
         <div className='organization'>
           <a href='#inicio'><h4>Inicio</h4></a>
           <a href='#projetos'><h4>Projetos</h4></a>
-          <a href='#projetos'><h4>Sobre</h4></a>
-          <a href='#projetos'><h4>Contato</h4></a>
+          <a href='#sobre'><h4>Sobre</h4></a>
         </div>
       </div>
       <div className='boxContact'>
